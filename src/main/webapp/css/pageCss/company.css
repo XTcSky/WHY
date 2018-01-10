@@ -1,0 +1,39 @@
+.x-body{
+	text-align: center;
+}
+.logo-box{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.logo-box img{
+	width: 100%;
+}
+.company-box{
+	display: inline-block;
+	width: 250px;
+	height: 150px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.company-box input,.company-box textarea{
+	width: 100%;
+	border: none;
+}
+.company-box input{
+	font-size: 16px;
+	font-weight: 700;
+	height: 20px;
+	line-height: 20px;
+	padding: 10px;
+}
+.company-box textarea{
+	margin-top: 10px;
+	height: 80px;
+	padding: 10px;
+	resize:none;
+	overflow: hidden;
+	text-indent: 32px;
+}

@@ -1,0 +1,18 @@
+.h-300{
+	height: 300px !important;
+}
+/*垂直居中对齐*/
+.verticalMBox{
+	text-align: center;
+	height: 100%;
+}
+.verticalMBox:before{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.verticalM{
+	display: inline-block;
+	vertical-align: middle;
+}
